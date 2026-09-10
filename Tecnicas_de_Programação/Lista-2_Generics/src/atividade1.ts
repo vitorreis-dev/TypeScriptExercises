@@ -22,6 +22,6 @@ const bb = identidade_1("Olá");
 
 const cc = identidade_1(true); 
 
-//3-R: Após a alteração para o tipo genérico, a cada váriavel será distribuido o tipo relacionado ao valor atribuido a função, ou seja, se na várivel "a" foi atribuido um valor com números, teremos então, a váriavel "a" de tipo Number.
+//3-R: Após a alteração para o tipo genérico, a cada váriavel será distribuido o tipo relacionado ao valor atribuido a função, ou seja, se na várivel "a" foi atribuido um valor com números, teremos então, a váriavel "a" de tipo number.
 
 //4-R: A versão genérica é mais segura, pois armazenamos todos os dados com seus respectivos tipos e preservamos o seu rastreamento, o que torna a estrutura do código mais segura e previsivel.

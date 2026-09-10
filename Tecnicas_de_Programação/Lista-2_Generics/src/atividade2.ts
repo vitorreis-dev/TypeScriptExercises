@@ -19,8 +19,8 @@ function primeiro_1<T>(lista: T[]): T | undefined{
     return lista[0]; 
 } 
 
-const a = primeiro<Number>([10, 20, 30]); 
+const a = primeiro<number>([10, 20, 30]); 
 
-const b = primeiro<String>(["João", "Maria", "Pedro"]); 
+const b = primeiro<string>(["João", "Maria", "Pedro"]); 
 
-const c = primeiro<Boolean>([true, false, true]); 
+const c = primeiro<boolean>([true, false, true]); 
